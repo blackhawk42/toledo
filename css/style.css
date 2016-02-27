@@ -3,3 +3,61 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
+#header{
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+}
+
+#hero-text {
+  text-align: center;
+}
+
+#myNavGlobal {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#myNavBars {
+  float: left;
+  margin-left: 20px;
+  border-color: transparent;
+
+}
+
+#navList {
+  margin-top: 0px;
+  text-align: center;
+  background-color: transparent;
+}
+
+#btnAprender {
+  border-radius: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+#taller-div {
+  min-height: 320px;
+}
+
+#bloques-imagen {
+  background-image: url("../img/oficina.jpg");
+  background-size: cover;
+}
+
+.bloques {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

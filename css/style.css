@@ -1,5 +1,5 @@
 /* 700 bold*/
-html {
+body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   background-color: #F9F9F9
@@ -43,6 +43,12 @@ html {
   min-height: 320px;
 }
 
+#inspirar {
+  line-height: 2;
+  font-size: 14pt;
+  margin-bottom: 50px;
+}
+
 #bloques-imagen {
   background-image: url("../img/oficina.jpg");
   background-size:  cover;
@@ -77,6 +83,10 @@ html {
   margin-bottom: 100px;
 }
 
+.todos-div {
+  margin-bottom: 20px;
+}
+
 .col50 {
   max-width: 45%;
 }
@@ -101,7 +111,12 @@ html {
   border-radius: 100px;
   padding-left: 30px;
   padding-right: 30px;
-  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 14pt;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   background-color: #2E71F2;
   border-color: transparent;
 }
@@ -134,3 +149,17 @@ html {
 .azul {
   color: #2E71F2 !important;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

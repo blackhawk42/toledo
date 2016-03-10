@@ -19,7 +19,7 @@ body {
 
 @media (min-width: 768px) {
   #hero {
-    min-height: 100vh;
+    min-height: 650px;
   }
 }
 
@@ -51,8 +51,14 @@ body {
 
 #inspirar {
   line-height: 2;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  #inspirar {
+    font-size: 25px;
+  }
 }
 
 #bloques-imagen {
@@ -66,15 +72,22 @@ body {
 
 @media (min-width: 768px) {
   #bloques-imagen {
-    min-height: 100vh;
+    min-height: 630px;
   }
 }
 
 #bloques-texto {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 30px;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  #bloques-texto {
+    padding-top: 15px;
+  }
+}
+
 
 #imagen-toledo {
   background-image: url("../img/toledo.jpg");
@@ -94,12 +107,15 @@ body {
   align-items: center;
 }
 
-#citas-div {
-  margin-bottom: 500px;
+@media (min-width: 768px) {
+  #talleres-titulos {
+    margin-top: 180px;
+  }
 }
 
-#gente-opina {
-  margin-top: 800px;
+#citas-div {
+  padding-top: 30px;
+  margin-bottom: 50px;
 }
 
 #texto-toledo-div {
@@ -113,8 +129,12 @@ body {
   padding-top: 20px;
 }
 
+.flexbox {
+  display: flex;
+}
+
 .titulos-margen {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .col50 {

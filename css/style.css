@@ -1,4 +1,3 @@
-/* 700 bold*/
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -27,6 +26,13 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  #hero-text {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+}
+
 #myNavGlobal {
   background-color: transparent;
   border-color: transparent;
@@ -47,6 +53,10 @@ body {
 
 #taller-div {
   min-height: 320px;
+}
+
+#gente-opina {
+  margin-bottom: 15px;
 }
 
 #inspirar {
@@ -97,7 +107,7 @@ body {
 
 @media (min-width: 768px) {
   #imagen-toledo {
-    min-height: 600px;
+    min-height: 850px;
   }
 }
 
@@ -123,6 +133,12 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  #texto-toledo-div {
+    padding-top: 300px;
+  }
 }
 
 #jumbo-div {
@@ -193,14 +209,28 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20px;
+  font-size:
+}
+
+.thejumboinline {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+  .thejumboinline {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
 }
 
 .footering{
-  height: 70px;
+  height: 50px;
   text-align: center;
-  background-color: grey;
-  padding-top: 25px;
+  background-color: #3B3D40;
+  padding-top: 20px;
   font-size: 15px;
+  color: white;
 }
 
 .footer-images
@@ -224,6 +254,19 @@ body {
 
 .azul {
   color: #2E71F2 !important;
+}
+
+.grande {
+  font-size: 35px;
+}
+
+.left-on-big {
+}
+
+@media (min-width: 768px) {
+  .left-on-big {
+    text-align: left;
+  }
 }
 
 .clearfix:after {

@@ -149,6 +149,20 @@ body {
   display: flex;
 }
 
+.p-for-citas {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .p-for-citas {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+}
+
 .titulos-margen {
   margin-top: 10px;
 }
@@ -233,6 +247,7 @@ body {
   color: white;
 }
 
+
 .footer-images
 {
   height: 30px;
@@ -246,10 +261,23 @@ body {
     margin-left: 25%;
     margin-right: 25%;
   }
+
+  .footering {
+    height: 60px;
+  }
 }
 
 .bold {
   font-weight: 700;
+}
+
+.mayus {
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.quotes-img {
+  margin-bottom: 10px;
 }
 
 .azul {
@@ -258,6 +286,10 @@ body {
 
 .grande {
   font-size: 35px;
+}
+
+.regular {
+  font-size: 14px;
 }
 
 .left-on-big {

@@ -142,7 +142,13 @@ body {
 }
 
 #jumbo-div {
-  padding-top: 20px;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  #jumbo-div{
+    padding-top: 20px;
+  }
 }
 
 .flexbox {
@@ -163,6 +169,28 @@ body {
   }
 }
 
+.bloque-inlines {
+  display: inline-block;
+  margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.bloques-inlines-img {
+  height: 25px;
+  width: 25px;
+  top: -5px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+.bloques-inlines-img {
+  top: -15px;
+}
+
+}
+
+
 .titulos-margen {
   margin-top: 10px;
 }
@@ -177,6 +205,13 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .bloques {
+    text-align: left;
+    padding-left: 20%;
+  }
 }
 
 .bloques-citas {

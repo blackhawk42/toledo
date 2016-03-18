@@ -117,7 +117,7 @@ body {
   }
 }
 
-@media (min-width: 773px) {
+@media (max-width: 773px) {
   #texto-toledo {
     min-height: 300px;
   }

@@ -76,14 +76,8 @@ body {
   background-size:  cover;
   background-repeat: no-repeat;
   content: '';
-  min-height: 400px;
+  min-height: 620px;
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  #bloques-imagen {
-    min-height: 630px;
-  }
 }
 
 #bloques-texto {
@@ -120,6 +114,18 @@ body {
 @media (min-width: 768px) {
   #texto-toledo {
     min-height: 850px;
+  }
+}
+
+@media (min-width: 773px) {
+  #texto-toledo {
+    min-height: 300px;
+  }
+}
+
+@media (min-height: 1024px) {
+  #texto-toledo {
+    min-height: 300px;
   }
 }
 

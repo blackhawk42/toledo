@@ -28,8 +28,8 @@ body {
 
 @media (min-width: 768px) {
   #hero-text {
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 
@@ -114,7 +114,19 @@ body {
 #texto-toledo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  min-height: 100px;
+}
+
+@media (min-width: 768px) {
+  #texto-toledo {
+    min-height: 850px;
+  }
+}
+
+#texto-toledo-interno {
+  padding-left: 5%;
+  padding-right: 5%;
+  align-self: center;
 }
 
 @media (min-width: 768px) {
@@ -126,19 +138,6 @@ body {
 #citas-div {
   padding-top: 30px;
   margin-bottom: 50px;
-}
-
-#texto-toledo-div {
-  max-height: 100px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 100px;
-}
-
-@media (min-width: 768px) {
-  #texto-toledo-div {
-    padding-top: 300px;
-  }
 }
 
 #jumbo-div {
@@ -161,14 +160,6 @@ body {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .p-for-citas {
-    padding-left: 70px;
-    padding-right: 70px;
-    text-align: center;
-  }
-}
-
 .bloque-inlines {
   display: inline-block;
   margin-left: 15px;
@@ -181,13 +172,6 @@ body {
   width: 25px;
   top: -5px;
   position: relative;
-}
-
-@media (min-width: 768px) {
-.bloques-inlines-img {
-  top: -15px;
-}
-
 }
 
 

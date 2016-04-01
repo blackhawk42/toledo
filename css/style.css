@@ -226,6 +226,25 @@ body {
   border-color: transparent;
 }
 
+#topicos {
+  margin-top: 10%;
+}
+
+#toledo-magna {
+  margin-bottom: 15px;
+}
+
+#inversion {
+  margin-bottom: 15px;
+}
+
+#contactar{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .nopadding {
   padding: 0px;
 }
@@ -305,7 +324,32 @@ body {
   margin-bottom: 10px;
 }
 
-.azul {
+#circles {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #circles {
+    text-align: left;
+  }
+}
+
+
+.img-circ{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.azul{
+  color: #2E71F2 !important;
+}
+
+.azul-hover {
+}
+
+.azul-hover:hover {
   color: #2E71F2 !important;
 }
 

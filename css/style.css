@@ -347,6 +347,7 @@ body {
 }
 
 .azul-hover {
+  color: white !important;
 }
 
 .azul-hover:hover {
